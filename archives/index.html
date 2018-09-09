@@ -1,3 +1,4 @@
+
 <!doctype html>
 <!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
 <!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
@@ -36,27 +37,34 @@
   <script src="/javascripts/libs/modernizr-2.0.6.min.js"></script>
 </head>
 
-<body id="article">
+<body>
   <div id="container">
     <header>
-    <h2> Blog Archive</h2>
+      <span id='name-helper'>Your Name</span>
+      <canvas   id="myCanvas" width="700" ></canvas>
+      
+      <br><br>
+      <h1>A blogging framework for hackers.</h1>
+      <br>
+      
+    </header>
+    <div id="main" role="main">
+      <nav role="navigation" ><ul class="main-navigation">
+  <li style='float:left;margin-right:7px'><a class='nav' href="/">Blog</a></li>
+  <li style='float:left;margin-right:7px'><a class='nav' href="/archives">Archives</a></li>
+  <li ><a class='nav' href="/about">About</a></li>
+</ul><br><br>
+</nav>
+      <header>
+	<h2>Blog Archive</h2>
 </header>
+<div id="blog-archives">
 
-    <article>
-  <h1 class="article-title">Blog Archive</h1>
-  <div class="sharing">
-  
-  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://annthurium.github.io/blog/archives/index.html" data-via="" data-counturl="http://annthurium.github.io/blog/archives/index.html" >Tweet</a>
-  
-  
-</div>
-
-  <div class="article-content"><div id="blog-archives">
 
 </div>
-</div>
-</article>
 
+
+    </div>
        <footer role="contentinfo" >
     	<p>
 		Copyright &copy; 2018 - Your Name -
@@ -66,8 +74,8 @@
     </footer>
 
 
-  </div>
-<script src='/javascripts/libs/linkedlist_drawer.js'></script>
+  </div> <!--! end of #container -->
+  <script src='/javascripts/libs/linkedlist_drawer.js'></script>
 
 <!-- JavaScript at the bottom for fast page loading -->
 
@@ -106,4 +114,3 @@
 
 
 </body>
-
