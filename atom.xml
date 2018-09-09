@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[My Octopress Blog]]></title>
+  <title><![CDATA[Thuryism]]></title>
   <link href="http://annthurium.github.io/atom.xml" rel="self"/>
   <link href="http://annthurium.github.io/"/>
-  <updated>2018-09-09T12:49:00-07:00</updated>
+  <updated>2018-09-09T13:56:44-07:00</updated>
   <id>http://annthurium.github.io/</id>
   <author>
-    <name><![CDATA[Your Name]]></name>
+    <name><![CDATA[annthurium]]></name>
     
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
